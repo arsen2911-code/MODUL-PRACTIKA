@@ -1,9 +1,5 @@
 import java.util.*;
 
-// =======================
-// FACADE PART
-// =======================
-
 class RoomBookingSystem {
     public void bookRoom(String guest, int room) {
         System.out.println("Room booked for " + guest + " in room " + room);
@@ -91,9 +87,6 @@ class HotelFacade {
     }
 }
 
-// =======================
-// COMPOSITE PART
-// =======================
 
 abstract class OrganizationComponent {
     public void add(OrganizationComponent c) {}
@@ -214,9 +207,6 @@ class Department extends OrganizationComponent {
     }
 }
 
-// =======================
-// MAIN
-// =======================
 
 public class PRAC9 {
     public static void main(String[] args) {
